@@ -34,6 +34,7 @@ public class PlayerJumping : Player
       }
       else
       {
+        JumpTimeCounter = -0.1f;
         isJumping = false;
       }
     }

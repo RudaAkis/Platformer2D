@@ -1251,14 +1251,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e0a522aed738bb46abb4ed93c4a369d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 6
+  jumpForce: 4.5
   isGrounded: 0
   JumpGround:
     serializedVersion: 2
     m_Bits: 64
   feetPosition: {fileID: 1179519042}
   GroundCheckRadius: 0.3
-  JumpTime: 0.65
+  JumpTime: 0.2
   JumpTimeCounter: 0
 --- !u!114 &554909277
 MonoBehaviour:
@@ -1363,8 +1363,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: -0, y: 0.025178662}
+  m_Size: {x: 1, y: 0.9496423}
   m_Direction: 0
 --- !u!114 &554909284
 MonoBehaviour:
@@ -3477,7 +3477,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -3668,6 +3667,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
